@@ -1,0 +1,25 @@
+[user]
+	name = lsphillips
+
+[core]
+	editor = code --wait
+	autocrlf = true
+	commentChar = ";"
+
+[init]
+	defaultBranch = main
+
+[diff]
+	tool = code
+
+[difftool "code"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+[merge]
+	tool = code
+
+[mergetool "code"]
+	cmd = code --wait $MERGED
+
+[url "ssh://git@github.com:lsphillips"]
+	insteadOf = https://github.com/lsphillips

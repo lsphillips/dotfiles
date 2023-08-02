@@ -1,0 +1,23 @@
+{
+	"workbench.colorTheme" : "Default Dark+",
+	"workbench.iconTheme" : "vscode-icons",
+	"workbench.startupEditor" : "newUntitledFile",
+	"workbench.statusBar.feedback.visible" : false,
+	"workbench.tips.enabled" : false,
+	"editor.insertSpaces" : true,
+	"editor.mouseWheelZoon" : false,
+	"editor.snippetSuggestions" : "none",
+	"editor.codeActionsOnSave" : {
+		"source.fixAll.eslint" : true
+	},
+	"window.openFolderInNewWindow" : "on",
+	"window.restoreWindows" : "folders",
+	"window.title" : "${dirty}${rootName}${separator}${activeEditorShort}",
+	"files.eol" : "\n",
+	"extensions.ignoreRecommendations" : true,
+	"debug.internalConsoleOptions" : "neverOpen",
+	"eslint.alwaysShowStatus" : true,
+	"eslint.run" : "onSave",
+	"powershell.sideBar.CommandExplorerVisibility" : false,
+	"vsicons.presets.foldersAllDefaultIcon" : true
+}
