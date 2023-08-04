@@ -9,7 +9,7 @@ My development environment configuration.
 Open an elevated PowerShell terminal and run the following command:
 
 ``` powershell
-git clone https://github.com/lsphillips/dotfiles.git; . dotfiles\setup.ps1
+. setup.ps1
 ```
 
 **Important:** You must have your execution policy set to `Unrestricted` or `Bypass` for this to work:
