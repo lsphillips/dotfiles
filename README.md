@@ -6,7 +6,7 @@ My development environment configuration.
 
 ### Installation
 
-Open an elevated Powershell terminal and run the following command:
+Open an elevated PowerShell terminal and run the following command:
 
 ``` powershell
 git clone https://github.com/lsphillips/dotfiles.git; . dotfiles\setup.ps1
@@ -23,7 +23,7 @@ The following setup will be performed:
 - Configures some aspects of Windows.
 - Ensures necessary applications are installed; achieved using [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/).
 - Copies the applicable configuration files to their required locations.
-- Sets up a Powershell profile.
+- Sets up a PowerShell profile.
 
 To apply any updates you just need to pull them down and run the `setup.ps1` script again.
 
@@ -40,7 +40,7 @@ The profile initializes `oh-my-posh` and defines the following helper functions:
 - `hosts`\
   Opens the `hosts` file in Visual Studio Code.
 - `ps-profile`\
-  Opens the Powershell profile file in Visual Studio Code.
+  Opens the PowerShell profile file in Visual Studio Code.
 - `delete`\
   Deletes a file or directory.
 - `flush-dns`\
