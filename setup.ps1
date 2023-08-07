@@ -23,6 +23,7 @@ $env:Path        = [System.Environment]::GetEnvironmentVariable("Path", "Machine
 # Install node.
 write-host "Installing latest version of Node (nvm)" -ForegroundColor "Yellow"
 nvm install latest
+nvm use latest
 
 # Install nerd fonts.
 write-host "Installing Meslo font family (oh-my-posh)" -ForegroundColor "Yellow"
