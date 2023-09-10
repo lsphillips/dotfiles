@@ -44,6 +44,7 @@ copy $PSScriptRoot\.editorconfig         $env:USERPROFILE\.editorconfig
 copy $PSScriptRoot\.gitconfig            $env:USERPROFILE\.gitconfig
 copy $PSScriptRoot\oh-my-posh.json       $env:USERPROFILE\oh-my-posh.json
 copy $PSScriptRoot\vscode.json           $env:APPDATA\Code\User\settings.json
+copy $PSScriptRoot\github-cli.yml        $env:APPDATA\GitHub CLI\config.yml
 copy $PSScriptRoot\windows-terminal.json $env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
 
 # Copy Powershell 7 profile.
