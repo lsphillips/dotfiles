@@ -40,9 +40,18 @@ function flush-dns
 
 function update
 {
+	param (
+        [switch]
+        $help = $false
+    )
+
 	winget upgrade --all -s winget
 	update-module -Force
-	update-help
+
+	if ($help)
+	{
+		update-help
+	}
 }
 
 function empty-bin
