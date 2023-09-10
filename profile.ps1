@@ -56,5 +56,5 @@ function update
 
 function empty-bin
 {
-    (New-Object -ComObject Shell.Application).Namespace(0xA).Items() | %{Remove-Item $_.Path -Recurse -Confirm:$false}
+	(New-Object -ComObject Shell.Application).Namespace(0xA).Items() | %{Remove-Item $_.Path -Recurse -Confirm:$false}
 }
