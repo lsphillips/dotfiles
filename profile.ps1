@@ -41,9 +41,9 @@ function flush-dns
 function update
 {
 	param (
-        [switch]
-        $help = $false
-    )
+		[switch]
+		$help = $false
+	)
 
 	winget upgrade --all -s winget
 	update-module -Force
