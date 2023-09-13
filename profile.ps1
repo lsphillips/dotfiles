@@ -28,6 +28,11 @@ function ps-profile
 	code $PROFILE
 }
 
+function aws-config
+{
+	code $env:HOMEPATH\.aws
+}
+
 function delete
 {
 	rm -Recurse $args
@@ -57,4 +62,9 @@ function update
 function empty-bin
 {
 	(New-Object -ComObject Shell.Application).Namespace(0xA).Items() | %{Remove-Item $_.Path -Recurse -Confirm:$false}
+}
+
+function aws-profiles
+{
+	aws configure list-profiles
 }

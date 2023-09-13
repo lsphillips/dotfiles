@@ -41,6 +41,8 @@ The profile initializes `oh-my-posh` and defines the following helper functions:
   Opens the `hosts` file in Visual Studio Code.
 - `ps-profile`\
   Opens the PowerShell profile file in Visual Studio Code.
+- `aws-config`\
+  Opens the AWS configuration directory in Visual Studio Code.
 - `delete`\
   Deletes a file or directory.
 - `flush-dns`\
@@ -49,3 +51,5 @@ The profile initializes `oh-my-posh` and defines the following helper functions:
   Updates all applications, modules and module help files.
 - `empty-bin`\
   Empties the Recycle Bin.
+- `aws-profiles`\
+  Lists the available AWS profiles.
