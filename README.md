@@ -22,8 +22,11 @@ The following setup will be performed:
 
 - Configures some aspects of Windows.
 - Ensures necessary applications are installed; achieved using [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/).
+- Installs Ubuntu via WSL.
 - Copies the applicable configuration files to their required locations.
 - Sets up a PowerShell profile.
+
+**Important:** This setup process will require some input from you, either in the form of software installation dialogues or setting up the WSL Ubuntu username and password.
 
 To apply any updates you just need to pull them down and run the `setup.ps1` script again.
 
