@@ -38,6 +38,10 @@ code --force --install-extension leizongmin.node-module-intellisense
 code --force --install-extension vscode-icons-team.vscode-icons
 code --force --install-extension octref.vetur
 
+# Install Ubuntu
+write-host "Installing Ubuntu via WSL"
+wsl --install -d Ubuntu
+
 # Copy configuration.
 write-host "Placing configuration files" -ForegroundColor "Yellow"
 copy $PSScriptRoot\.editorconfig         $env:USERPROFILE\.editorconfig
