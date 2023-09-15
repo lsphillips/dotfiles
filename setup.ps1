@@ -39,7 +39,7 @@ code --force --install-extension vscode-icons-team.vscode-icons
 code --force --install-extension octref.vetur
 
 # Install Ubuntu
-write-host "Installing Ubuntu via WSL"
+write-host "Installing Ubuntu (WSL)" -ForegroundColor "Yellow"
 wsl --install -d Ubuntu
 
 # Copy configuration.
