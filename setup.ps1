@@ -37,6 +37,8 @@ code --force --install-extension dbaeumer.vscode-eslint
 code --force --install-extension leizongmin.node-module-intellisense
 code --force --install-extension vscode-icons-team.vscode-icons
 code --force --install-extension octref.vetur
+code --force --install-extension github.copilot
+code --force --install-extension github.copilot-chat
 
 # Install Ubuntu
 write-host "Installing Ubuntu (WSL)" -ForegroundColor "Yellow"
