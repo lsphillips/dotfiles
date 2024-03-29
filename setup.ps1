@@ -10,6 +10,8 @@ winget install -e --id Amazon.AWSCLI -s winget
 winget install -e --id GitHub.cli -s winget
 winget install -e --id Microsoft.PowerToys -s winget
 winget install -e --id JetBrains.Rider -s winget
+winget install -e --id GIMP.GIMP -s winget
+winget install -e --id Inkscape.Inkscape -s winget
 
 # Install modules.
 write-host "Installing PowerShell modules" -ForegroundColor "Yellow"
