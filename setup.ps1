@@ -2,6 +2,7 @@
 write-host "Installing applications" -ForegroundColor "Yellow"
 winget install -e --id Microsoft.WindowsTerminal -s winget
 winget install -e --id Git.Git -s winget
+winget install -e --id jqlang.jq -s winget
 winget install -e --id Microsoft.PowerShell -s winget
 winget install -e --id JanDeDobbeleer.OhMyPosh -s winget
 winget install -e --id Microsoft.VisualStudioCode -s winget
