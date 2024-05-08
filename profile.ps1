@@ -68,3 +68,8 @@ function aws-profiles
 {
 	aws configure list-profiles
 }
+
+function uncommit ()
+{
+	git reset --soft HEAD^
+}
