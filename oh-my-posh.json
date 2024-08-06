@@ -42,10 +42,9 @@
 					"foreground" : "p:white",
 					"properties" :
 					{
-						"home_icon" : "\uf7db",
 						"style" : "folder"
 					},
-					"template" : " \uf74a {{ path .Path .Location }} "
+					"template" : " \uf07b {{ path .Path .Location }} "
 				},
 				{
 					"type" : "git",
@@ -67,7 +66,7 @@
 						"fetch_upstream_icon" : true,
 						"branch_icon" : "\ue725 "
 					},
-					"template" : " {{ if .UpstreamURL }}{{ url .UpstreamIcon .UpstreamURL }} {{ end }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} "
+					"template" : " {{ if .UpstreamURL }}{{ .UpstreamIcon }} {{ end }}{{ .HEAD }} {{ .BranchStatus }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} "
 				},
 				{
 					"type" : "executiontime",
@@ -105,7 +104,7 @@
 						"display_mode" : "files",
 						"home_enabled" : true
 					},
-					"template" : "\uf898 <p:white>{{ .Full }}</>"
+					"template" : "\ued0d <p:white>v{{ .Full }}</>"
 				},
 				{
 					"type" : "dotnet",
@@ -119,7 +118,7 @@
 						"display_mode" : "files",
 						"home_enabled" : true
 					},
-					"template" : "\uf81a <p:white>{{ .Full }}</>"
+					"template" : "\uf81a <p:white>v{{ .Full }}</>"
 				},
 				{
 					"type" : "aws",
@@ -128,7 +127,7 @@
 					"trailing_diamond": "\ue0b4 ",
 					"background" : "p:grey",
 					"foreground" : "p:yellow",
-					"template" : "\uf270 {{ .Profile }}{{ if .Region }} ({{ .Region }}){{ end }}"
+					"template" : "\uf0ef  {{ .Profile }}{{ if .Region }} ({{ .Region }}){{ end }}"
 				}
 			],
 			"type" : "rprompt"
