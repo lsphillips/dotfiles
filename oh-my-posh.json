@@ -3,6 +3,8 @@
 	"version" : 2,
 	"console_title_template" : "{{ .Shell }}{{ if .Root }} (elevated){{end}} in {{ .PWD }}",
 	"final_space" : true,
+	"auto_upgrade" : true,
+
 	"palette" :
 	{
 		"black" : "#262B44",
@@ -15,6 +17,7 @@
 		"orange" : "#F07623",
 		"yellow" : "#F3AE35"
 	},
+
 	"blocks" :
 	[
 		{
